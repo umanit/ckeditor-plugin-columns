@@ -1,0 +1,63 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ckeditor__colums-content {
+  box-shadow: 0 1px 1px #ddd inset;
+  border: 1px solid #cccccc;
+  padding: 0 5px;
+  border-radius: 5px;
+  background: #fff;
+  min-height: 5em;
+}
+
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ckeditor__col-md-1 {
+  width: 8.33333333%;
+}
+.ckeditor__col-md-2 {
+  width: 16.66666667%;
+}
+.ckeditor__col-md-3 {
+  width: 25%;
+}
+.ckeditor__col-md-4 {
+  width: 33.33333333%;
+}
+.ckeditor__col-md-5 {
+  width: 41.66666667%;
+}
+.ckeditor__col-md-6 {
+  width: 50%;
+}
+.ckeditor__col-md-7 {
+  width: 58.33333333%;
+}
+.ckeditor__col-md-8 {
+  width: 66.66666667%;
+}
+.ckeditor__col-md-9 {
+  width: 75%;
+}
+.ckeditor__col-md-10 {
+  width: 83.33333333%;
+}
+.ckeditor__col-md-11 {
+  width: 91.66666667%;
+}
+.ckeditor__col-md-12 {
+  width: 100%;
+}
+.ckeditor__col-md-1, .ckeditor__col-md-10, .ckeditor__col-md-11, .ckeditor__col-md-12, .ckeditor__col-md-2, .ckeditor__col-md-3, .ckeditor__col-md-4, .ckeditor__col-md-5, .ckeditor__col-md-6, .ckeditor__col-md-7, .ckeditor__col-md-8, .ckeditor__col-md-9 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
