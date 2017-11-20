@@ -125,7 +125,7 @@
 
       editor.widgets.add("columns", {
         allowedContent:
-          "div(!columns);div(!ckeditor__col-*-*);div(!ckeditor__columns-content)",
+          "div(!*)",
         requiredContent: "div(columns)",
         parts: {
           columns: "div.columns"
@@ -144,11 +144,7 @@
         // initialize
         // Init function is useful after copy paste rebuild.
         init: function() {
-          var rowNumber = 1;
-          var rowCount = this.element.getChildCount();
-          for (rowNumber; rowNumber <= rowCount; rowNumber++) {
-            this.createEditable(maxColumns, rowNumber);
-          }
+          this.createEditable(maxColumns, 1);
         },
         // Prepare data
         data: function() {
