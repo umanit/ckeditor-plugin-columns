@@ -1,6 +1,6 @@
 # Column widget for CKEditor 4
 
-Fork from [https://github.com/kaido24/btgrid](btgrid), without row concept, and not attached to bootstrap.
+Fork from [btgrid](https://github.com/kaido24/btgrid), without row concept, and not attached to bootstrap.
 
 Work with CKEditor >= 4.3, and depends on `dialogs` and `widget` plugins.
 
